@@ -7,25 +7,12 @@
 % University of Sussex
 % September 2019
 %
-% This LaTeX file has been created by Jesús Rubio Jiménez. The style of 
-% the document follows the requirements imposed by the University of 
-% Sussex in
+% The style of this document follows the requirements imposed by the 
+% University of Sussex in
 %
 % http://www.sussex.ac.uk/rsao/examination/
-% 
-% while the structure is loosely based on the combination of two previous 
-% templates:
 %
-% a) one created by Anthony Smith, available in
-%
-% https://www.sharelatex.com/templates/thesis/university-of-sussex-thesis
-%
-% which at the same time was based on usthesis.cls by Jonathon Read, and
-%
-% b) a version created by Kathryn Burrows.
-%
-%
-% This version: Final version, single line-spacing, two-sided. 
+% This version: Final version, single line-spacing, one-sided. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -250,7 +237,7 @@
 % after the main text and before any appendices. Individual bibliographies
 % for sub-divisions of the thesis should not be employed.
 % 
-% The composite bibliography should be;
+% The composite bibliography should be:
 %
 %  - either numbered consecutively, as far as possible, in the same order 
 %  as references appear in the text, with numbers only in the text;
@@ -345,7 +332,7 @@
 {} 
   
 % Other declarations
-\graphicspath{{./pictures/}}
+\graphicspath{{./figures/}}
 \usepackage{subcaption}
 \usepackage{diagbox}
 \usepackage{csquotes}
@@ -355,10 +342,7 @@
 %\usepackage[multiple]{footmisc}
 \usepackage{placeins}
 
-% A nicer transpose
-%
-% Source: https://tex.stackexchange.com/questions/30619/what-is-the-best-symbol-for-vector-matrix-transpose
-% How to use it: \transpose
+% A nicer transpose: \transpose
 \makeatletter
 \newcommand*{\transpose}{%
   {\mathpalette\@transpose{}}%
@@ -561,9 +545,7 @@ It has also been fantastic working and discussing physics with the rest of the g
 
 I am indebted to collaborators and friends - Alfredo, Tim, George, Dominic, Matthew, Jasminder, Christos, Francesco and many others - who through many interesting discussions have helped me to refine my ideas, and to develop them further. I would also like to thank Dimitrios for his help with the mathematical literature of probability theory, and Petr for introducing me to Jaynes's work; my thesis would have been very different without it. These interactions have been possible thanks to attending many interesting conferences, which I was able to do thanks to the generous financial support provided by the University of Sussex and the South East Physics Network (SEPnet) to complete my PhD.
 
-Working towards my PhD at Sussex has been a great experience. Its friendly staff are always ready to be helpful, and its library is superb. In fact, the library has been an invaluable source of material during development of many sections of this thesis. It has been a great pleasure meeting many fascinating people, and to have had the opportunity of developing many activities. There was always time to chat with Luc\'{i}a and let the idealists inside us to run free, to have entertaining discussions and share experiences with Harry, Nick and Jean-Marc, or to run teaching workshops with Reece. And I enormously enjoyed every session of our AMO Theory Club - Kathryn, Pedro, Germ\'{a}n, Samuel, Graham, Charlie and Michail - which was always an excellent opportunity to learn something new beyond our thesis topics. 
-
-In addition, I am very grateful for all the support and encouragement that I have received from Kathryn during this journey. She has been a continuous source of inspiration to explore new ways of thinking about the world, and to better appreciate the wonders of life. In addition, I would like to thank her for having read some of the preliminary drafts and having provided invaluable feedback.  
+Working towards my PhD at Sussex has been a great experience. Its friendly staff are always ready to be helpful, and its library is superb. In fact, the library has been an invaluable source of material during development of many sections of this thesis. It has been a great pleasure meeting many fascinating people, and to have had the opportunity of developing many activities. There was always time to chat with Luc\'{i}a and let the idealists inside us to run free, to have entertaining discussions and share experiences with Harry, Nick and Jean-Marc, or to run teaching workshops with Reece. And I enormously enjoyed every session of our AMO Theory Club - Pedro, Samuel, Graham, Charlie, Michail, Kathryn and Germ\'{a}n - which was always an excellent opportunity to learn something new beyond our thesis topics. I would also like to thank Kathryn for having read some of the sections of my preliminary drafts.  
 
 Last but not least, I would like to thank all the people who have also supported my project both from home and from many other parts of the world: Isabel and Alfredo, for our fantastic meetings when I visit Madrid; In\'{e}s and Eli, for a friendship that never ends; H\'{e}ctor, because indeed great minds think alike; Anah\'{i}, for always being so trustworthy; Ana, for always being open to the world; Pablo, for our conversations about life; and my family, for your support no matter where we are.  
 
@@ -599,7 +581,7 @@ Thanks to all of you.
 %------------------------------------------------------------------------
 
 % %\afterpage{\blankpage} % Add if needed so that chapter 1 starts in an
-						 % odd number page. 
+% odd number page. 
 
 %------------------------------------------------------------------------
 % Chapters
